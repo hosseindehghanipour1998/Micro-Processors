@@ -1,0 +1,13 @@
+VERSION:3 SOURCE_TIMESTAMP:4F9E8B93
+NODE:I LEVEL:0 LINE:24 "C:\cvavr\inc\mega32.h"
+NODE:I LEVEL:0 LINE:25 "C:\cvavr\inc\stdio.h"
+NODE:I LEVEL:0 LINE:28 "C:\cvavr\inc\alcd.h"
+NODE:V LEVEL:0 LINE:31 "counter -> R4,R5"
+NODE:V LEVEL:0 LINE:32 "s -> R6,R7"
+NODE:V LEVEL:0 LINE:33 "m -> R8,R9"
+NODE:V LEVEL:0 LINE:34 "str -> RAM:????"
+NODE:V LEVEL:0 LINE:35 "isPause -> R10,R11"
+NODE:F LEVEL:0 LINE:38 "ext_int0_isr(void)"
+NODE:F LEVEL:0 LINE:46 "ext_int1_isr(void)"
+NODE:F LEVEL:0 LINE:54 "timer0_ovf_isr(void)"
+NODE:F LEVEL:0 LINE:85 "main(void)"
