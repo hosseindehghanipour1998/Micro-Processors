@@ -1,0 +1,63 @@
+RAM Allocation [bytes]
+Variable                                                                          Address   Size
+------------------------------------------------------------------------------------------------
+str                                                                               0x0262      10
+m1                                                                                0x026C       2
+m2                                                                                0x026E       2
+t                                                                                 0x0270       2
+rx_buffer                                                                         0x0272       8
+rx_rd_index                                                                       0x027A       1
+rx_counter                                                                        0x027B       1
+tx_buffer                                                                         0x027C       8
+tx_wr_index                                                                       0x0284       1
+tx_rd_index                                                                       0x0285       1
+tx_counter                                                                        0x0286       1
+_base_y                                                                           0x0287       4
+_lcd_x                                                                            0x028B       1
+_lcd_y                                                                            0x028C       1
+_lcd_maxx                                                                         0x028D       1
+
+EEPROM Allocation [bytes]
+Variable                                                                          Address   Size
+------------------------------------------------------------------------------------------------
+
+Register Allocation
+Variable                                                                          Register  Size
+------------------------------------------------------------------------------------------------
+temp1                                                                             R4,R5        2
+temp2                                                                             R6,R7        2
+slave1                                                                            R9           1
+slave2                                                                            R8           1
+slave3                                                                            R11          1
+status                                                                            R12,R13      2
+rx_wr_index                                                                       R10          1
+rx_buffer_overflow                                                                R2.0      1bit
+
+FLASH Allocation [words]
+Function                                                                          Address   Size
+------------------------------------------------------------------------------------------------
+usart_rx_isr                                                                      0x00085     37
+getchar                                                                           0x000AA     32
+usart_tx_isr                                                                      0x000CA     36
+putchar                                                                           0x000EE     41
+main                                                                              0x00117    253
+_lcd_write_nibble_G100                                                            0x00214     20
+_lcd_write_data                                                                   0x00228     12
+lcd_gotoxy                                                                        0x00234     17
+lcd_clear                                                                         0x00245     14
+lcd_putchar                                                                       0x00253     32
+lcd_puts                                                                          0x00273     16
+lcd_init                                                                          0x00283     47
+put_usart_G101                                                                    0x002B2     11
+put_buff_G101                                                                     0x002BD     57
+_print_G101                                                                       0x002F6    308
+sprintf                                                                           0x0042A     46
+printf                                                                            0x00458     31
+get_usart_G101                                                                    0x00477     23
+_scanf_G101                                                                       0x0048E    322
+scanf                                                                             0x005D0     29
+isdigit                                                                           0x005ED      9
+isspace                                                                           0x005F6     11
+isxdigit                                                                          0x00601     15
+strlen                                                                            0x00610     12
+strlenf                                                                           0x0061C     13
