@@ -1,0 +1,8 @@
+VERSION:3 SOURCE_TIMESTAMP:50240025
+NODE:I LEVEL:0 LINE:24 "C:\cvavr\inc\mega32.h"
+NODE:I LEVEL:0 LINE:25 "C:\cvavr\inc\delay.h"
+NODE:I LEVEL:0 LINE:28 "C:\cvavr\inc\alcd.h"
+NODE:I LEVEL:0 LINE:30 "C:\cvavr\inc\stdio.h"
+NODE:V LEVEL:0 LINE:33 "a -> R4,R5"
+NODE:F LEVEL:0 LINE:35 "ana_comp_isr(void)"
+NODE:F LEVEL:0 LINE:49 "main(void)"
