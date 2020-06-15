@@ -1,0 +1,13 @@
+VERSION:3 SOURCE_TIMESTAMP:5036A329
+NODE:I LEVEL:0 LINE:24 "C:\cvavr\inc\mega32.h"
+NODE:I LEVEL:0 LINE:25 "C:\cvavr\inc\delay.h"
+NODE:I LEVEL:0 LINE:26 "C:\cvavr\inc\stdio.h"
+NODE:I LEVEL:0 LINE:27 "C:\cvavr\inc\math.h"
+NODE:I LEVEL:0 LINE:29 "C:\cvavr\inc\alcd.h"
+NODE:V LEVEL:0 LINE:32 "temp -> R4,R5"
+NODE:V LEVEL:0 LINE:33 "str -> RAM:????"
+NODE:I LEVEL:0 LINE:35 "C:\cvavr\inc\stdio.h"
+NODE:F LEVEL:0 LINE:38 "ana_comp_isr(void)"
+NODE:M LEVEL:0 LINE:48 "ADC_VREF_TYPE"
+NODE:F LEVEL:0 LINE:51 "read_adc(unsigned char adc_input)"
+NODE:F LEVEL:0 LINE:64 "main(void)"
