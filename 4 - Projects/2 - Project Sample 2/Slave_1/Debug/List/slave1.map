@@ -1,0 +1,35 @@
+RAM Allocation [bytes]
+Variable                                                                          Address   Size
+------------------------------------------------------------------------------------------------
+rx_buffer                                                                         0x0260       8
+tx_buffer                                                                         0x0268       8
+adc_data                                                                          0x0270       8
+input_index                                                                       0x0278       1
+
+EEPROM Allocation [bytes]
+Variable                                                                          Address   Size
+------------------------------------------------------------------------------------------------
+
+Register Allocation
+Variable                                                                          Register  Size
+------------------------------------------------------------------------------------------------
+any_crtitical_message_to_master                                                   R4,R5        2
+bus_enable                                                                        R6,R7        2
+rx_wr_index                                                                       R9           1
+rx_rd_index                                                                       R8           1
+rx_counter                                                                        R11          1
+rx_buffer_overflow                                                                R2.0      1bit
+tx_wr_index                                                                       R10          1
+tx_rd_index                                                                       R13          1
+tx_counter                                                                        R12          1
+
+FLASH Allocation [words]
+Function                                                                          Address   Size
+------------------------------------------------------------------------------------------------
+ext_int0_isr                                                                      0x0006D      7
+ext_int1_isr                                                                      0x00074      8
+usart_rx_isr                                                                      0x0007C     31
+usart_tx_isr                                                                      0x0009B     23
+putchar                                                                           0x000B2     27
+adc_isr                                                                           0x000CD     45
+main                                                                              0x000FA     89
