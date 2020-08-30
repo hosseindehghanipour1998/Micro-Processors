@@ -1,0 +1,6 @@
+VERSION:3 SOURCE_TIMESTAMP:4EE2A0C9
+NODE:I LEVEL:0 LINE:24 "C:\cvavr\inc\mega32.h"
+NODE:I LEVEL:0 LINE:28 "C:\cvavr\inc\spi.h"
+NODE:F LEVEL:0 LINE:30 "spi_tranceiver(unsigned char data)"
+NODE:F LEVEL:0 LINE:38 "ext_int0_isr(void)"
+NODE:F LEVEL:0 LINE:46 "main(void)"

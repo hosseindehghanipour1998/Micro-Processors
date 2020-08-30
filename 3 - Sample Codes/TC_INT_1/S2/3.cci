@@ -1,0 +1,9 @@
+VERSION:3 SOURCE_TIMESTAMP:4EB86B7C
+NODE:I LEVEL:0 LINE:24 "C:\cvavr\inc\mega32.h"
+NODE:I LEVEL:0 LINE:27 "C:\cvavr\inc\alcd.h"
+NODE:I LEVEL:0 LINE:29 "C:\cvavr\inc\stdio.h"
+NODE:V LEVEL:0 LINE:32 "a -> R4,R5"
+NODE:F LEVEL:0 LINE:34 "ext_int0_isr(void)"
+NODE:F LEVEL:0 LINE:44 "ext_int1_isr(void)"
+NODE:F LEVEL:0 LINE:51 "timer0_comp_isr(void)"
+NODE:F LEVEL:0 LINE:59 "main(void)"

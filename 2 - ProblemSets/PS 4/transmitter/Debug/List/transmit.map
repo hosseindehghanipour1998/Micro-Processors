@@ -1,0 +1,26 @@
+RAM Allocation [bytes]
+Variable                                                                          Address   Size
+------------------------------------------------------------------------------------------------
+tx_buffer                                                                         0x0260       8
+adc_data                                                                          0x0268       4
+input_index                                                                       0x026C       1
+
+EEPROM Allocation [bytes]
+Variable                                                                          Address   Size
+------------------------------------------------------------------------------------------------
+
+Register Allocation
+Variable                                                                          Register  Size
+------------------------------------------------------------------------------------------------
+flag                                                                              R4,R5        2
+higher_than_standard                                                              R6,R7        2
+tx_wr_index                                                                       R9           1
+tx_rd_index                                                                       R8           1
+tx_counter                                                                        R11          1
+
+FLASH Allocation [words]
+Function                                                                          Address   Size
+------------------------------------------------------------------------------------------------
+usart_tx_isr                                                                      0x00068     23
+adc_isr                                                                           0x0007F     45
+main                                                                              0x000AC     84
