@@ -1,0 +1,2 @@
+- Implemented in C , Proteus
+- This project is a simulation of a Master and 3 Slave “Atmega32”  Micro Processors which are used in a factory as control system.
