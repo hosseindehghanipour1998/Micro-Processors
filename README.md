@@ -1,3 +1,7 @@
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+
+
+
 # Micro-Processor-TA-2019
 Here I upload all the files I shared (as the TA) with the students.
 
